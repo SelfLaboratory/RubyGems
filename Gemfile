@@ -28,7 +28,7 @@ source "https://rubygems.org"
 # gem 'postamt'
 # gem 'migration_comments', '~> 0.3.2'
 # gem 'paranoia', '~> 2.0'
-gem 'readthis', '=1.5.0', git: 'https://github.com/macomamio/readthis'　#:path => "vendor/git/"
+gem 'readthis', git: 'https://github.com/macomamio/readthis'　#'=1.5.0', :path => "vendor/git/"
 # gem 'hiredis'
 # gem 'redis-rails'
 # # KPI

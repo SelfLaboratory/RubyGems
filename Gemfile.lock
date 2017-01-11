@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/macomamio/readthis
+  remote: git://github.com/macomamio/readthis.git
   revision: 3d6076eee4e7ee72d3feb494a8b91790929ce635
   specs:
     readthis (1.5.0)

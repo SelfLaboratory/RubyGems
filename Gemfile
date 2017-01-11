@@ -29,8 +29,9 @@ source "https://rubygems.org"
 # gem 'migration_comments', '~> 0.3.2'
 # gem 'paranoia', '~> 2.0'
 
-gem 'readthis', git: 'https://github.com/macomamio/readthis'
+gem 'readthis', :github => 'macomamio/readthis'
 
+# git: 'https://github.com/macomamio/readthis'
 #'=1.5.0', :path => "vendor/git/"
 
 # gem 'hiredis'

@@ -1,0 +1,33 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+  Exclude:
+    - 'benchmarks/**/*'
+    - 'bin/**/*'
+    - 'pkg/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+  TargetRubyVersion: 2.3
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/MethodLength:
+  Max: 15
+
+Documentation:
+  Enabled: false # TODO: Enable again once we have more docs
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%w': "[]"
+    '%W': "[]"
